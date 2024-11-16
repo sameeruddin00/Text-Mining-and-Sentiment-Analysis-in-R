@@ -12,7 +12,7 @@ This project demonstrates the use of R for text mining and sentiment analysis, f
 ## Tools and Technologies
 - R Programming Language
 - Libraries: `dplyr`, `ggplot2`, `tidytext`, `stringr`,`lubridate`, `sentimentr`, `lexicon`, `afinn`
-- Dataset: A tweet dataset (e.g., `cs_data2.csv`)
+- Dataset: A tweet dataset for example in my case i used `cs_data2.csv`)
 
 ## Key Learnings
 - Hands-on experience with text mining techniques.
