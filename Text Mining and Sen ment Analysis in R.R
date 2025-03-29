@@ -42,7 +42,7 @@ clean_tweets_df <- tweets_df
 
 
 # Removing URLs
-clean_tweets_df$text <- str_remove_all(clean_tweets_df$text, "\\bhttps?://[[:alnum:]]+\\.[[:alnum:]]+(/[[:alnum:].,_/-]*)?")
+clean_tweets_df$text <- str_remove_all(clean_tweets_df$text, "\\bhttps?://[[:alnum:]]+\\.[[:alnum:]]+(/[[:alnum:].,_/-]*)?"
 
 
 # Removing emojis 
